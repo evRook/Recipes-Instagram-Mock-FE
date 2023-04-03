@@ -295,7 +295,7 @@ export default function Form() {
           {whenToShowAddImg()}
           {loadingImg && <p>loading...</p>}
           {(imgURL || (bodyData && bodyData.img)) && (
-            <img src={imgURL} alt="img" className="form--img" />
+            <img src={imgURL || bodyData.img} alt="img" className="form--img" />
           )}
           {/* {bodyData && bodyData.img && (
             <img src={bodyData.img} alt="img" className="form--img"></img>
