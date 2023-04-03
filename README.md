@@ -11,8 +11,7 @@
 
 <br/>
 
-//need link here VV
-### Visit [Platefuls](#) and start scrolling for fresh new dinner ideas!
+### Visit [Platefuls](https://recipes-ga.netlify.app/) and start scrolling for fresh new dinner ideas!
 
 <br/>
 
@@ -54,8 +53,7 @@
 
 ---
 
-//Need link here VV
-## Thanks for Checking out [Platefuls](#)!
+## Thanks for Checking out [Platefuls](https://recipes-ga.netlify.app/)!
 
 <br/>
 <br/>
@@ -64,7 +62,6 @@
 
 ### Later Additions:
 
-// anything else to add?
 - User Profiles
 - Login/out
 - Comment Sections for Recipes
@@ -77,7 +74,6 @@
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![image](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-// not sure if were going to use netlify
 ![image](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 
@@ -87,17 +83,11 @@
 
 ### Frontend:
 
-//need to upload our data for these, default links for now
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://recipes-ga.netlify.app/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/evRook/Recipes-Instagram-Mock-FE/issues)
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](#)
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/evRook/Recipes-Instagram-Mock-FE)
-[![GitHub contributors](https://badgen.net/github/contributors/Naereen/Strapdown.js)](https://https://github.com/evRook/Recipes-Instagram-Mock-FE/graphs/contributors/)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7ede29a1-2c4b-4219-ad44-70e113539bd8/deploy-status)](https://app.netlify.com/sites/platefuls/deploys)
-
-
+- [Deployed Netlify App](https://recipes-ga.netlify.app/)
 - [Front End Repository](https://github.com/evRook/Recipes-Instagram-Mock-FE)
-
 - To get started contributing.
     - Fork and Clone this Repository.
     - Create a new feature branch 
@@ -108,9 +98,9 @@
 
 ### Backend: 
 
-// need to add documentation link here VV
 - [Back End Repository](https://github.com/locb65/Recipes-Instagram-Mock)
-    - [Documentation](#)
+    - For API Documentation use: 
+        - ```$ npm run docs```
 - [Issue Tracker](https://github.com/locb65/Recipes-Instagram-Mock/issues)
 
 ### Acknowledgements:
@@ -118,9 +108,15 @@
 #### Resources:
 - [Badges 4](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 
-#### Authors:
+<br/>
 
-![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-- [mmbliv](https://github.com/mmbliv)
-- [locb65](https://github.com/locb65)
-- [evRook](https://github.com/evRook)
+### Authors: 
+
+<br/>
+
+![Your Repository's Stats](https://contrib.rocks/image?repo=evRook/Recipes-Instagram-Mock-FE)
+
+- [evRook](https://github.com/evRook) | Eric Spychalski
+- [mmbliv](https://github.com/mmbliv) | Min He
+- [locb65](https://github.com/locb65) | Loc Bui
+

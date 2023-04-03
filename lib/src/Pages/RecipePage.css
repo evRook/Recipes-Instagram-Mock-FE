@@ -3,7 +3,7 @@
   margin-right: auto;
   margin-top: 80px;
   margin-bottom: 80px;
-  width: 1200px;
+  max-width: 1200px;
   min-height: 800px;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@
 }
 
 .RP--img__container {
-  width: 700px;
-  height: 700px;
+  max-width: 700px;
+  max-height: 700px;
   overflow: hidden;
   display: flex;
   justify-content: flex-start;
@@ -60,6 +60,7 @@
   margin: 20px 20px 0px 0px;
   display: flex;
   align-items: center;
+  z-index: 200;
 }
 
 .RP--btns--edit {
@@ -225,20 +226,96 @@
   gap: 2rem;
   padding-right: 2rem;
 }
+
 .RP--reminder {
   position: absolute;
   top: 30%;
   z-index: 100;
-  background-color: black;
   padding: 2rem;
-  color: white;
+  color: #e6e6e6;
   left: 30%;
   transform: translate(-50%, -50%);
+  border: 2px outset grey;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    120deg,
+    #181818,
+    #444444,
+    #6d6d6d
+  );
+  box-shadow: 2px 2px 5px #000000;
+
 }
+
 .RP--reminder__close {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
   background-color: #575757;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #a7a7a7;
+  border: none;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  background-image: linear-gradient(
+    120deg,
+    #6d6d6d,
+    #444444,
+    #181818
+  );
   /* z-index: 3; */
+}
+
+.RP--reminder__close:hover {
+  color: #797979;
+}
+
+.RP--reminder__close:active {
+  border: none;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+
+
+@media screen and (max-width: 921px){
+
+  .RP--head--container {
+    justify-content: flex-start;
+  }
+
+  .RP--components__container {
+    width: 50%;
+    margin-left: 25px;
+  }
+
+  .RP--overlay {
+    background-image: linear-gradient(#0000005a, #000000);
+  }
+
+}
+
+
+@media screen and (max-width: 720px){
+
+  .RP--components__container {
+    width: 70%;
+  }
+
+  .RP--title {
+    font-size: 30px;
+  }
+
+  .RP--components__title {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 555px){
+
+  .RP--components__container {
+    width: 100%;
+  }
+
 }

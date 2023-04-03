@@ -1,12 +1,9 @@
 import React from "react";
 import "./Home.css";
 import { RecipeCard } from "./Components";
-import { useLoaderData, Link } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 
 export default function Home() {
-  const testData = useLoaderData();
-  let testArr = [];
-
   const recipeData = useLoaderData();
   let recipeArr = [];
 
@@ -20,7 +17,7 @@ export default function Home() {
     //added back for css testing
     if (img !== null) {
       return recipeArr.push(
-        <RecipeCard title={name} img={img} alt={name} id={_id} like={like} />
+        <RecipeCard title={name} img={img} alt={name} id={_id} like={like} key={_id} />
       );
     }
   });

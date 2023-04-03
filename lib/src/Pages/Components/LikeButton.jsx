@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./LikeButton.css";
-import { HiOutlineHeart, HiHeart } from "react-icons/hi2";
+import { HiOutlineHeart } from "react-icons/hi2";
 
 export default function LikeButton(props) {
   const [liked, setLiked] = useState(props.like);

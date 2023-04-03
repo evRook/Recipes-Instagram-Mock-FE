@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import React, { useEffect, useState } from "react";
 import "./GroceriesItem.css";
 import { GiCheckMark } from "react-icons/gi";
 import { RiDeleteBinFill } from "react-icons/ri";
@@ -62,7 +63,7 @@ export default function GroceriesItem(props) {
         </div>
         <div className="groceriesItem--createdAt">
           <p>
-            {date.getMonth() + "/" + date.getDay() + "/" + date.getFullYear()}
+            {(date.getMonth()+1) + "/" + date.getDate()+ "/" + date.getFullYear()}
           </p>
         </div>
         <div>

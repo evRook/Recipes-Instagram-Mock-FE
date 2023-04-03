@@ -2,9 +2,6 @@ import React from "react";
 import "./Header.css";
 import HeaderIconBtn from "./HeaderIconBtn";
 import Search from "./Search";
-import { BsFillBasketFill } from "react-icons/bs";
-import { MdPlaylistAddCircle } from "react-icons/md";
-
 import { CiShoppingCart, CiSquarePlus } from "react-icons/ci";
 
 import { Link } from "react-router-dom";

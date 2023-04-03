@@ -1,34 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SearchPage.css'
 import { Thumbnail } from './Components'
 import { useLocation, Link } from 'react-router-dom'
-import Search from './Components/Search.jsx';
 
 export default function SearchPage() {
-    // const [searchResults, setSearchResults] = useState([]);
-    const { state}  = useLocation()
+    const { state }  = useLocation()
     const { results, search } = state;
     const searchResults = []
     console.log(results)
-
-//    const handleSearchResults = (results)=> {
-//         setSearchResults(results);
-//         console.log(results)
-//     }
 
     results.map(({ _id, name, img }) => {
         if(img !== null){
             return(
                 searchResults.push(
-                    <Link to={`../recipe/${_id}`} style={{ textDecoration: "none" }}>
-                        <Thumbnail name={name} img={img} key={_id}/>
+                    <Link to={`../recipe/${_id}`} key={_id} style={{ textDecoration: "none" }}>
+                        <Thumbnail name={name} img={img} />
                     </Link>
                 )
             )
         }
     })
-
-    
 
     return (
         <div className="searchPage--container">
